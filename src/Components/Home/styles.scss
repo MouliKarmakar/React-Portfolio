@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  background: rgb(34 34 34);
+  flex-direction: column;
+  width: 100%;
+
+  span {
+    margin-top: 7px;
+    img {
+      width: 300px;
+      height: 70px;
+      overflow: hidden;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Protest+Strike&family=Roboto:wght@100&display=swap");
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  padding: 30px;
+  background-color: rgb(109, 109, 158);
+  gap: 100px;
+  h1 {
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    gap: 30px;
+  }
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  .section-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 8px 0 #353637;
+    border-bottom: 1px solid #353637;
+    border-radius: 5px;
+    padding: 30px;
+    width: auto;
+    height: fit-content;
+    gap: 5px;
+    h3 {
+      padding-bottom: 12px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 10px;
+      letter-spacing: 2px;
+    }
+    section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+      gap: 5px;
+      font-size: 16px;
+      img {
+        padding: 2%;
+        height: 24px;
+        width: 24px;
+        gap: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .skills {
+    gap: 60px;
+    h1 {
+      font-size: 34px;
+    }
+  }
+  .sections {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skills {
+    gap: 60px;
+    height: auto;
+    h1 {
+      font-size: 25px;
+      line-height: 17px;
+    }
+  }
+  .sections {
+    .section-div {
+      h3 {
+        font-size: 16px;
+      }
+      section {
+        font-size: 14px;
+      }
+    }
+  }
+}
