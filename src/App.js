@@ -7,7 +7,7 @@ import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Education from "./Components/Education/Education";
 import Contact from "./Components/Contact/Contact";
-
+import { Divider } from "antd";
 const App = () => {
   const [activeSection, setActiveSection] = useState("home");
   const homeRef = useRef(null);
@@ -61,6 +61,7 @@ const App = () => {
       {/* =============== MAIN ================ */}
       <Home ref={homeRef} />
       <About ref={aboutRef} />
+      <Divider />
       <Education ref={educationRef} />
       <Skills ref={skillsRef} />
       <Projects ref={projectsRef} />

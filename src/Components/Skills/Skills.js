@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.scss";
+import { Divider } from "antd";
 
 function Skills({ ref }) {
   return (
@@ -8,7 +9,7 @@ function Skills({ ref }) {
       <div className="sections">
         <div className="section-div">
           <h3>Version Control</h3>
-          <hr />
+          <Divider />
           <section>
             <a href="https://git-scm.com/doc" rel="noreferrer" target="_blank">
               <img
@@ -22,7 +23,7 @@ function Skills({ ref }) {
         </div>
         <div className="section-div">
           <h3>Frameworks</h3>
-          <hr />
+          <Divider />
           <section>
             <a
               href="https://mui.com/material-ui/"
@@ -68,7 +69,7 @@ function Skills({ ref }) {
         </div>
         <div className="section-div">
           <h3>Hosting Platform</h3>
-          <hr />
+          <Divider />
           <section>
             <a
               href="https://docs.netlify.com/"
@@ -100,7 +101,7 @@ function Skills({ ref }) {
         </div>
         <div className="section-div">
           <h3>Scripting Languages</h3>
-          <hr />
+          <Divider />
           <section>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/HTML"
@@ -116,43 +117,59 @@ function Skills({ ref }) {
             <span>HTML5</span>
           </section>
           <section>
-            {/* <a href="" rel="noreferrer" target="_blank"> */}
-            <img
-              src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-              alt=""
-              style={{ height: "30px", width: "30px" }}
-            />
-            {/* </a> */}
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="https://cdn-icons-png.freepik.com/512/5968/5968242.png"
+                alt=""
+                style={{ height: "30px", width: "30px" }}
+              />
+            </a>
             <span>CSS</span>
           </section>
           <section>
-            {/* <a href="" rel="noreferrer" target="_blank"> */}
-            <img
-              src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-              alt=""
-              style={{ height: "30px", width: "30px" }}
-            />
-            {/* </a> */}
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
+                alt=""
+                style={{ height: "30px", width: "30px" }}
+              />
+            </a>
             <span>JavaScript</span>
           </section>
           <section>
-            {/* <a href="" rel="noreferrer" target="_blank"> */}
-            <img
-              src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-              alt=""
-              style={{ height: "30px", width: "30px" }}
-            />
-            {/* </a> */}
+            <a
+              href="https://legacy.reactjs.org/docs/getting-started.html"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="https://logowik.com/content/uploads/images/react7473.logowik.com.webp"
+                alt=""
+                style={{ height: "30px", width: "30px" }}
+              />
+            </a>
             <span>React JS</span>
           </section>
           <section>
-            {/* <a href="" rel="noreferrer" target="_blank"> */}
-            <img
-              src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-              alt=""
-              style={{ height: "30px", width: "30px" }}
-            />
-            {/* </a> */}
+            <a
+              href="https://sass-lang.com/documentation/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
+                alt=""
+                style={{ height: "30px", width: "30px" }}
+              />
+            </a>
             <span>SASS</span>
           </section>
         </div>
