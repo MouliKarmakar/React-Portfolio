@@ -7,7 +7,7 @@ import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Education from "./Components/Education/Education";
 import Contact from "./Components/Contact/Contact";
-import { Divider } from "antd";
+import { Divider, ConfigProvider } from "antd";
 const App = () => {
   const [activeSection, setActiveSection] = useState("home");
   const homeRef = useRef(null);
@@ -24,8 +24,6 @@ const App = () => {
     const skillsPosition = skillsRef.current?.offsetTop || 0;
     const projectsPosition = projectsRef.current?.offsetTop || 0;
     const contactPosition = contactRef.current?.offsetTop || 0;
-
-    // ... (get offsets for other sections)
 
     const scrollPosition = window.scrollY;
 
@@ -61,12 +59,28 @@ const App = () => {
       {/* =============== MAIN ================ */}
       <Home ref={homeRef} />
       <About ref={aboutRef} />
-      <Divider />
+      <ConfigProvider
+        theme={{
+          token: {
+            lineWidth: 3,
+          },
+        }}
+      >
+        <Divider style={{ color: "rgb(85, 82, 82)" }} />
+      </ConfigProvider>
       <Education ref={educationRef} />
       <Skills ref={skillsRef} />
+      <ConfigProvider
+        theme={{
+          token: {
+            lineWidth: 3,
+          },
+        }}
+      >
+        <Divider style={{ color: "rgb(85, 82, 82)" }} />
+      </ConfigProvider>
       <Projects ref={projectsRef} />
       <Contact ref={contactRef} />
-      {/* Add other components here */}
     </div>
   );
 };

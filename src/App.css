@@ -1,5 +1,5 @@
 .app {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* color: rgb(85, 82, 82); */
 }

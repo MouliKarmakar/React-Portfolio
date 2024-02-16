@@ -3,7 +3,7 @@ import "./styles.scss";
 
 function Projects({ ref }) {
   return (
-    <div id="projects" ref={ref} className="about">
+    <div id="projects" ref={ref} className="projects">
       My About Componet.
     </div>
   );

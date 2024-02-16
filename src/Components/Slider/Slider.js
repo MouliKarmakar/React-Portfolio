@@ -30,7 +30,7 @@ const Slider = () => {
       if (!hovered) {
         setIndex((prevIndex) => (prevIndex + 1) % images.length);
       }
-    }, 3000); // Change slide every 3 seconds
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [hovered]);
@@ -56,7 +56,9 @@ const Slider = () => {
         <h1>Mouli Karmakar</h1>
         <h2>Frontend Developer</h2>
         <div className="slider__buttons">
-          <button className="slider__buttons__button">Let's contact</button>
+          <a href="#contact">
+            <button className="slider__buttons__button">Let's contact</button>
+          </a>
           <button className="slider__buttons__button">Download Resume</button>
         </div>
       </animated.div>

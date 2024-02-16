@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import { Divider } from "antd";
+import { Divider, ConfigProvider } from "antd";
 
 function Skills({ ref }) {
   return (
@@ -9,7 +9,15 @@ function Skills({ ref }) {
       <div className="sections">
         <div className="section-div">
           <h3>Version Control</h3>
-          <Divider />
+          <ConfigProvider
+            theme={{
+              token: {
+                lineWidth: 3,
+              },
+            }}
+          >
+            <Divider style={{ color: "rgb(85, 82, 82)" }} />
+          </ConfigProvider>
           <section>
             <a href="https://git-scm.com/doc" rel="noreferrer" target="_blank">
               <img
@@ -23,7 +31,15 @@ function Skills({ ref }) {
         </div>
         <div className="section-div">
           <h3>Frameworks</h3>
-          <Divider />
+          <ConfigProvider
+            theme={{
+              token: {
+                lineWidth: 3,
+              },
+            }}
+          >
+            <Divider style={{ color: "rgb(85, 82, 82)" }} />
+          </ConfigProvider>
           <section>
             <a
               href="https://mui.com/material-ui/"
@@ -69,7 +85,15 @@ function Skills({ ref }) {
         </div>
         <div className="section-div">
           <h3>Hosting Platform</h3>
-          <Divider />
+          <ConfigProvider
+            theme={{
+              token: {
+                lineWidth: 3,
+              },
+            }}
+          >
+            <Divider style={{ color: "rgb(85, 82, 82)" }} />
+          </ConfigProvider>
           <section>
             <a
               href="https://docs.netlify.com/"
@@ -101,7 +125,15 @@ function Skills({ ref }) {
         </div>
         <div className="section-div">
           <h3>Scripting Languages</h3>
-          <Divider />
+          <ConfigProvider
+            theme={{
+              token: {
+                lineWidth: 3,
+              },
+            }}
+          >
+            <Divider style={{ color: "rgb(85, 82, 82)" }} />
+          </ConfigProvider>
           <section>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/HTML"

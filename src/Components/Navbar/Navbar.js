@@ -43,7 +43,7 @@ function Navbar({ activeSection }) {
               activeSection === "home" ? "active" : ""
             }`}
           >
-            <a className="nav-link" href="#about">
+            <a className="nav-link" href="#education">
               Education
             </a>
           </li>
@@ -70,7 +70,7 @@ function Navbar({ activeSection }) {
               activeSection === "home" ? "active" : ""
             }`}
           >
-            <a className="nav-link" href="#about">
+            <a className="nav-link" href="#contact">
               Contact
             </a>
           </li>
