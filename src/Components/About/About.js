@@ -38,22 +38,28 @@ function About({ ref }) {
 
           <div className="aboutMe">
             <section>
-              Web Developer with expertise of React.js, Redux, Cloud Firestore,
-              HTML and CSS. currently learning React Native for Mobile
-              Application.
+              Hello! I'm Mouli Karmakar, a passionate learner and aspiring web
+              developer from West Bengal. Currently, I'm honing my skills in web
+              development through Almabetter, where I'm delving deep into the
+              realms of React, HTML, and vanilla JavaScript.
             </section>
             <br />
             <section>
-              I am passionate programmer and a learner, born and brought up in
-              Pakistan.Currently, I am enrolled in Tech Karo - Web Development
-              Program "Conducted by CIRCLE".
+              My journey into the world of programming began with a curiosity to
+              understand the digital landscape and create impactful solutions. I
+              find immense joy in crafting interactive and user-friendly web
+              experiences, constantly pushing myself to learn and adapt to new
+              technologies.
             </section>
             <br />
             <section>
-              Along with that, I also help people as a COACH on their journey of
-              becoming a professional programmer. I love learning about new
-              technologies, what problems are they solving and How can I use
-              them to build better and scalable products.
+              I believe in the power of continuous learning and the magic of
+              creativity to transform ideas into reality. With each project and
+              endeavor, I strive to not only expand my technical expertise but
+              also infuse my work with a touch of artistry and innovation.
+            </section>
+            <section>
+              Let's connect and explore the possibilities together!
             </section>
             <div className="buttons">
               <a href="#contact">

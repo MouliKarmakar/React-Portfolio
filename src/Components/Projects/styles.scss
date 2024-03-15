@@ -1,7 +1,64 @@
+// This another feature of SCSS and as it is a learning project so i tried to implement  this in this project .
 .projects {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-color: rgb(109, 109, 158);
+  font-family: "Montserrat", sans-serif;
   height: 100vh;
+  padding: 30px;
+  background-color: rgb(109, 109, 158);
+  gap: 100px;
+  h1 {
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: underline;
+    gap: 30px;
+  }
+}
+.project_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    img {
+      overflow: hidden;
+    }
+    &__buttonBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0 auto;
+      gap: 12px;
+    }
+  }
+  .button {
+    margin: 5px;
+    padding: 9px;
+    background: transparent;
+    border: 2px solid rgb(0, 13, 255);
+    border-radius: 4px;
+    color: rgb(0, 13, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 30px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+    &:hover {
+      background-color: rgb(0, 13, 255);
+      color: rgb(235, 231, 231);
+    }
+  }
 }

@@ -30,8 +30,8 @@ function Education({ ref }) {
         </div>
         <img
           className="educationImg"
-          src="https://lh3.googleusercontent.com/proxy/DGUQ0OfL3lxQdSqz4t-BheUSei54gLe8qZcssnUAlQNF5GMPJx6NOZSHHa1wxk3FULveFQhX67FMSvEkZhccwIeBozLCqN3EEiiT2FVQAQ6GWTU9glMH"
-          alt=""
+          src="https://burst.shopifycdn.com/photos/person-holds-a-book-over-a-stack-and-turns-the-page.jpg?width=1000&format=pjpg&exif=0&iptc=0"
+          alt="educationImg"
         />
       </div>
     </div>

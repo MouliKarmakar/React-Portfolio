@@ -61,7 +61,7 @@ function Navbar({ activeSection }) {
               activeSection === "home" ? "active" : ""
             }`}
           >
-            <a className="nav-link" href="#about">
+            <a className="nav-link" href="#projects">
               Projectes
             </a>
           </li>
