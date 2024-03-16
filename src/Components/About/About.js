@@ -51,16 +51,10 @@ function About({ ref }) {
               experiences, constantly pushing myself to learn and adapt to new
               technologies.
             </section>
-            <br />
-            <section>
-              I believe in the power of continuous learning and the magic of
-              creativity to transform ideas into reality. With each project and
-              endeavor, I strive to not only expand my technical expertise but
-              also infuse my work with a touch of artistry and innovation.
-            </section>
             <section>
               Let's connect and explore the possibilities together!
             </section>
+
             <div className="buttons">
               <a href="#contact">
                 <button className="button">Let's talk</button>
