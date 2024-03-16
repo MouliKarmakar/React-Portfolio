@@ -7,7 +7,11 @@ function Projects({ ref }) {
       <h1>MY PROJECTS</h1>
       <div className="project_cards">
         <div className="project_cards__card">
-          <img src="../../Grove-Galaria.png" alt="grove-galaria" />
+          <img
+            src="https://i.ibb.co/k3j67y9/Screenshot-2024-03-10-220914.png"
+            alt="Screenshot-2024-03-10-220914"
+            border="0"
+          />
           <div className="project_cards__card__buttonBox">
             <a
               href="https://65ede0ecf9ddda8acb045c4c--strong-cranachan-7c0aa0.netlify.app/"

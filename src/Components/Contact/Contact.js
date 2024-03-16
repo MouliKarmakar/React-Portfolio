@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./styles.scss";
 import { Modal } from "antd";
-// import SnackbarContent from "@mui/material/SnackbarContent";
 
 function Contact({ ref }) {
+  const [modalVisible, setModalVisible] = useState(false);
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -24,6 +24,7 @@ function Contact({ ref }) {
 
     if (res.success) {
       console.log("Success", res);
+      setModalVisible(true);
     }
   };
   return (
@@ -58,7 +59,7 @@ function Contact({ ref }) {
                 name="description"
               />
               <label htmlFor="description" className="descriptionLabel">
-                Description
+                Purpose
               </label>
             </div>
           </div>
@@ -85,6 +86,14 @@ function Contact({ ref }) {
           </span>
         </section>
       </div>
+      <Modal
+        title="Submission Successful"
+        open={modalVisible}
+        onOk={() => setModalVisible(false)}
+        onCancel={() => setModalVisible(false)}
+      >
+        <p>Your form has been submitted successfully!</p>
+      </Modal>
     </div>
   );
 }

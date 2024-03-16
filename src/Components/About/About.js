@@ -16,7 +16,7 @@ function About({ ref }) {
           transform: "translateX(0px)",
         }}
       >
-        <h1>MY ABOUT</h1>
+        <h1>ABOUT ME</h1>
       </Animate>
       <Animate
         play
