@@ -22,7 +22,6 @@ function Projects({ ref }) {
               <button className="button">Open in Code</button>
             </a>
           </div>
-          <button className="button">See the used text stack</button>
         </div>
       </div>
     </div>

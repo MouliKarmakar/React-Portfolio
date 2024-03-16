@@ -59,7 +59,12 @@ const Slider = () => {
           <a href="#contact">
             <button className="slider__buttons__button">Let's contact</button>
           </a>
-          <button className="slider__buttons__button">Download Resume</button>
+          <a
+            href="https://drive.google.com/file/d/1EprlSQ188_wnpDsTuLJ7DxFuZNgrXA0u/view?usp=sharing"
+            target="_blank"
+          >
+            <button className="slider__buttons__button">Download Resume</button>
+          </a>
         </div>
       </animated.div>
     </div>

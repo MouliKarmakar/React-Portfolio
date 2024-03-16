@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles.scss";
+import { Modal } from "antd";
 // import SnackbarContent from "@mui/material/SnackbarContent";
 
 function Contact({ ref }) {
@@ -71,7 +72,7 @@ function Contact({ ref }) {
             alt="what's-app"
           />
           <span>
-            You can also find me on: <strong>9145-6432-56</strong>
+            You can also find me on: <strong>7596-9766-14</strong>
           </span>
         </section>
         <section>
